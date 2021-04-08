@@ -1,0 +1,7 @@
+#first,#second,#third{
+    width: 100%;
+    margin: 20px;
+    height: 35px;
+    border: 2px red solid;
+    text-align: center;
+}

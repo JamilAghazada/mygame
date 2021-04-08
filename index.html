@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1  id = "first">Your score : 0</h1>
+    
+    <script>
+var questions = {
+    q1 : ["Biz beyin haqqinda yeni sey oyrenende demeli beyin ozu haqqinda nese oyrenms olur?","true"],
+    q2 : ["Hangmani yazmisan? ","true"],
+    q3 : ["Cagirsa eller davaya gedersen","true"]
+    }
+var xal = 0
+function presskey(){
+
+}
+for(a in questions){
+    ans = prompt(questions[a][0])
+    console.log(ans)
+    ans = ans.toLowerCase()
+    if (ans === questions[a][1]){
+        xal +=1
+        document.querySelector("#first").innerHTML =" Your Score:" + (xal);}
+//         break
+        console.log(xal)
+        alert("Sukani bele saxla:")
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
